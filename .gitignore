@@ -1,0 +1,20 @@
+# Ignore UiPath project settings
+.project/
+.settings/
+*.local
+*.user
+
+# Ignore output and log files
+*.log
+*.tmp
+*.out
+
+# Ignore model artifacts and data files
+MLModel/*.h5
+MLModel/*.pkl
+Data/test_data/
+Data/output/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
